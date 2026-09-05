@@ -1,0 +1,12 @@
+﻿colorama
+datasets
+faiss-cpu
+func-timeout
+huggingface-hub
+numpy
+pandas
+torch
+tqdm
+transformers
+accelerate
+bitsandbytes
