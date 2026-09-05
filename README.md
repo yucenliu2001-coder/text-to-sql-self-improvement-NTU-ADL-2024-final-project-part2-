@@ -1,6 +1,6 @@
 ﻿# Self-Improving Text-to-SQL with LLMs
 
-This repository contains the codebase for a group project on LLM benchmarking. The project includes multiple benchmark tasks, while this README focuses specifically on the **Text-to-SQL component** and the self-improvement approach developed for the project.
+This repository contains the codebase for a project on NTU course: Applied deep learning 2024. The project includes two tasks about LLM benchmark, while this README focuses specifically on the **Text-to-SQL component** and the self-improvement approach developed for the project.
 
 The Text-to-SQL system uses **Llama 3.1 8B Instruct** to generate SQL queries from natural-language questions and database schemas. It combines multiple SQL candidates, SQLite-based validation, candidate selection, and retrieval-augmented generation (RAG) to improve performance over the course of the benchmark.
 
