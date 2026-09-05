@@ -6,7 +6,7 @@ The Text-to-SQL system uses **Llama 3.1 8B Instruct** to generate SQL queries fr
 
 ## 🎥 Group Presentation
 
-[Watch the Group Presentation](https://drive.google.com/file/d/1I7ZmwCcKp15hrgGGKId2Le7qJ1QNsaE9/view?usp=drive_link)
+[Watch the Group Presentation on methods](https://drive.google.com/file/d/1I7ZmwCcKp15hrgGGKId2Le7qJ1QNsaE9/view?usp=drive_link)
 
 ## Overview
 
@@ -335,7 +335,7 @@ The original project contains multiple benchmark tasks. The README focuses on th
 
 For an overview of the complete group project:
 
-[Watch the Group Presentation](YOUR_PRESENTATION_VIDEO_URL)
+[Watch the Group Presentation on result and discussion](https://drive.google.com/file/d/1vFMYZsYEkNyRY20cX9XDhsmY4OhuA57P/view?usp=drive_link)
 
 ## Acknowledgements
 
