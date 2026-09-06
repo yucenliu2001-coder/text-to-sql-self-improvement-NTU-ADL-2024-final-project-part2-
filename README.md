@@ -354,7 +354,3 @@ The Text-to-SQL component focuses on improving SQL generation through:
 * Retrieval-augmented generation
 * Sequential self-improvement
 
-## License
-
-Add the appropriate license for this project if applicable.
-
