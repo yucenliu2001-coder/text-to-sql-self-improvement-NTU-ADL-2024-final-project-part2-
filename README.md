@@ -20,46 +20,48 @@ The overall pipeline is:
 
 ```text
 Natural-language Question
-          ??
-          ??
+          |
+          v
      Database Schema
-          ??
-          ??
+          |
+          v
    RAG Example Retrieval
-          ??
-          ??
+          |
+          v
       Prompt Builder
-          ??
-          ??
+          |
+          v
  Llama 3.1 8B Instruct
-          ??
-          ??
+          |
+          v
  Generate 5 SQL Candidates
-          ??
-          ??
+          |
+          v
  SQLite Validation
-          ??
-          ??
+          |
+          v
  Candidate Selection
  (Frequency Voting / LLM)
-          ??
-          ??
+          |
+          v
     Selected SQL
-          ??
-          ??
+          |
+          v
    BIRD Evaluation
-          ??
-          ??
+          |
+          v
       Correct?
        /     \
      Yes      No
-      ??       ??
-      ??       ??
-Store Q-SQL    ??
-in RAG         ??
-      ??       ??
-      ???????????
+      |        |
+      v        |
+Store Q-SQL    |
+in RAG         |
+      |        |
+      +--------+
 ```
+
+
 
 ## Self-Improvement
 
@@ -78,17 +80,17 @@ Therefore, the system can improve its future predictions based on previously suc
 
 ```text
 Correct Question-SQL Pair
-          ??
-          ??
+          |
+          v
       RAG Memory
-          ??
-          ??
+          |
+          v
 Retrieve Similar Examples
-          ??
-          ??
+          |
+          v
 Add to Future Prompt
-          ??
-          ??
+          |
+          v
 Better Context for SQL Generation
 ```
 
@@ -160,21 +162,23 @@ The main files related to Text-to-SQL are:
 
 ```text
 text-to-sql-self-improvement/
-??
-??? benchmarks/
-??  ??? base.py
-??  ??? text_to_sql.py
-??  ??? text2sql_utils/
-??      ??? sqlite_interpreter.py
-??      ??? string_formatter.py
-??
-??? base.py
-??? execution_pipeline.py
-??? main.py
-??? medical_records.py
-??? utils.py
-??
-??? README.md
+|
++-- benchmarks/
+|   +-- base.py
+|   +-- text_to_sql.py
+|   +-- text2sql_utils/
+|       +-- sqlite_interpreter.py
+|       +-- string_formatter.py
+|
++-- base.py
++-- execution_pipeline.py
++-- main.py
++-- medical_records.py
++-- utils.py
+|
++-- README.md
++-- requirements.txt
++-- .gitignore
 ```
 
 ### Important Components
